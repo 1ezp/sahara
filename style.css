@@ -56,8 +56,84 @@ nav ul li a{
 
 .row{
     display: flex;
-    height: 88%;
+    height: 80%;
     align-items: center;
-    color: white;
+    
 }
 
+.col{
+    flex-basis: 50%;
+}
+
+h1{
+    color: white;
+    font-size: 100px;
+}
+
+p{
+    color: white;
+    font-size: 11px;
+    line-height: 15px;
+}
+
+button{
+    width: 108px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: white;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    transition: transform 0.5s;
+
+}
+
+.card1{
+    background-image: url(img/pic-1.png);
+    background-position: center;
+    background-size: cover;
+}
+.card2{
+    background-image: url(img/pic-2.png);
+    background-position: center;
+    background-size: cover;
+}
+.card3{
+    background-image: url(img/pic-2.png);
+    background-position: center;
+    background-size: cover;
+}
+.card4{
+    background-image: url(img/pic-4.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+}
+
+h5{
+    color: white;
+    text-shadow: 0 0 5px #999;
+}
+
+.card p{
+    text-shadow: 0 0 15px #999;
+    font-size: 8px;
+    
+}
